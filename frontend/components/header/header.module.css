@@ -1,0 +1,82 @@
+@keyframes smoothAppear {
+    from {
+        opacity: 0;
+        transform: translateY(-5%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.box {
+    background: #323232;
+    color: #c8c8c8;
+    height: 48px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+    color: inherit;
+}
+.sub_menu {
+    background: black;
+    color: #c8c8c8;
+    height: 48px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    animation: smoothAppear 0.3s;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+}
+
+.home_btn {
+    display: inline;
+    font-weight: lighter;
+}
+
+
+.search_btn {
+    display: inline;
+    font-weight: lighter;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.header_btn {
+    display: inline;
+    font-weight: lighter;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.my_blog_btn {
+    display: inline;
+    font-weight: lighter;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .home_btn {
+        font-size: 17px;
+    }
+    .my_blog_btn {
+        font-size: 11px;
+    }
+    .header_btn {
+        font-size: 11px;
+    }
+}
+
+
+
+

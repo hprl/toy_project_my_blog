@@ -1,0 +1,9 @@
+.btn_container {
+    margin: 80px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 10px;
+}

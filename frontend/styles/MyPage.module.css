@@ -1,0 +1,42 @@
+.container {
+    margin-top: 100px;
+}
+
+.box {
+    margin-top: 100px;
+}
+.image {
+    margin-left: 40px;
+    border-radius: 100px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.imageBtn {
+    text-align: start;
+}
+
+.text {
+    border: none;
+    font-size: 20px;
+    display: block;
+}
+
+.userInfo {
+    display: grid;
+    align-items: center;
+}
+
+.submit {
+    display: inline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+    .image {
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+    }
+}

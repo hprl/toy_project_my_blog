@@ -1,0 +1,36 @@
+.container {
+    margin: 100px 0px;
+    padding: 30px;
+}
+
+.title {
+    border: none;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.imageUploadBtn {
+    text-align: end;
+}
+
+.content {
+    border: solid darkgray;
+    margin-bottom: 30px ;
+    padding: 30px;
+}
+
+.submitBox {
+    text-align: end;
+}
+
+.submitBox p {
+    display: inline;
+    cursor: pointer;
+}

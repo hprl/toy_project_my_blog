@@ -1,0 +1,28 @@
+.card_container {
+    height: 450px;
+}
+
+.title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content {
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.info_container {
+    border-top: solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_btn {
+    cursor: pointer;
+}

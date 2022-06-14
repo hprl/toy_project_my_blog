@@ -1,0 +1,25 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.ProseMirror {
+  height: 400px;
+  overflow: auto;
+  outline: none;
+}
+
+.ProseMirror code {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.ProseMirror mark {
+  background-color: #faf594;
+}

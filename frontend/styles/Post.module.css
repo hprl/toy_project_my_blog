@@ -1,0 +1,42 @@
+.container {
+    margin-top: 100px;
+}
+.title {
+    margin: 0 0 30px;
+}
+
+.infoBox {
+    display: flex;
+}
+
+.username {
+    cursor: pointer;
+    margin: 0 20px 0 5px;
+}
+
+.editBtn {
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.editBtn p {
+    display: inline;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.date {
+    margin: 0;
+}
+.likeBox {
+    display: flex;
+    align-items: center;
+}
+.like {
+    font-size: 17px;
+}
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}
